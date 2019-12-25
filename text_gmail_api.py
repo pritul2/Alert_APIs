@@ -20,9 +20,9 @@ with smtplib.SMTP("smtp.gmail.com",587) as smtp:
 	smtp.login(EMAIL_ADDRESS,EMAIL_PASSWORD)
 
 	#defining subject#
-	subject = 'Terrorist detected'
+	subject = '---subject----'
 	#defining body#
-	body = 'Terrorist detected at time xyz and number xyz'
+	body = '---body part -----'
 
 	#wrapping up#
 	msg=f'subject:{subject}\n\nbody:{body}'
